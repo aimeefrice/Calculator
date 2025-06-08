@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
 <div class="h-screen w-screen flex justify-center bg-purple-50">
@@ -14,31 +16,33 @@
         </div>
         <div class="h-96 w-auto mx-6 mt-7 flex flex-col">
             <div class="flex w-full">
-                <button id="bt7" onclick="appendNumber(7)" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">7</button>
-                <button id="bt8" onclick="appendNumber(8)" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">8</button>
-                <button id="bt9" onclick="appendNumber(9)" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">9</button>
-                <button id="divide" onclick="" class="text-3xl bg-sky-200 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-sky-300">/</button>
+                <button id="bt7" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">7</button>
+                <button id="bt8" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">8</button>
+                <button id="bt9" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">9</button>
+                <button id="divide" class="text-3xl bg-sky-200 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-sky-300">/</button>
             </div>
             <div class="flex w-full">
-                <button id="bt4" onclick="appendNumber(4)" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">4</button>
-                <button id="bt5" onclick="appendNumber(5)" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">5</button>
-                <button id="bt6" onclick="appendNumber(6)" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">6</button>
-                <button id="subtract" onclick="" class="text-3xl bg-sky-200 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-sky-300">-</button>
+                <button id="bt4" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">4</button>
+                <button id="bt5" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">5</button>
+                <button id="bt6" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">6</button>
+                <button id="subtract" class="text-3xl bg-sky-200 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-sky-300">-</button>
             </div>
             <div class="flex w-full">
-                <button id="bt1" onclick="appendNumber(7)" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">1</button>
-                <button id="bt2" onclick="appendNumber(8)" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">2</button>
-                <button id="bt3" onclick="appendNumber(9)" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">3</button>
-                <button id="multiply" onclick="" class="text-3xl bg-sky-200 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-sky-300">x</button>
+                <button id="bt1" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">1</button>
+                <button id="bt2" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">2</button>
+                <button id="bt3" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">3</button>
+                <button id="multiply" class="text-3xl bg-sky-200 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-sky-300">x</button>
             </div>
             <div class="flex w-full">
-                <button id="bt0" onclick="appendNumber(0)" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">0</button>
-                <button id="clear" onclick="" class="text-3xl bg-red-300 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-rose-400">CE</button>
-                <button id="solve" onclick="" class="text-3xl bg-zinc-50 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-zinc-200">=</button>
-                <button id="add" onclick="" class="text-3xl bg-sky-200 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-sky-300">+</button>
+                <button id="bt0" class="text-3xl bg-amber-100 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-amber-200">0</button>
+                <button id="clear" class="text-3xl bg-red-300 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-rose-400">CE</button>
+                <button id="solve" class="text-3xl bg-zinc-50 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-zinc-200">=</button>
+                <button id="add" class="text-3xl bg-sky-200 h-24 w-24 rounded-2xl m-2 border-2 border-yellow-900 hover:bg-sky-300">+</button>
             </div>
         </div>
     </div>
 </div>
+
+<script src="script.js"></script>
 </body>
 </html>
